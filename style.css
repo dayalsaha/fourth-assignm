@@ -1,0 +1,523 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+/*-------------------------------comon css close------------------------------*/ 
+
+
+/*-------------------------------header section css start------------------------------*/ 
+
+header {
+    width: 100%;
+    float: left;
+    background: #87509C;
+    padding: 30px 0;
+}
+
+.logo{
+    width: 40%;
+    cursor: pointer;
+    
+}
+
+
+
+.nav-menu{
+    width: 60%;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+}
+
+.nav-menu ul li a {
+    color: white;
+    font-size: 21px;
+    margin-right: 54px;
+    line-height: 54px;
+    transition: .5s ease;
+}
+
+.nav-menu ul li a:hover{
+    color:#e85d04;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 141px;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+
+
+.hero h2 {
+    font-size: 32px;
+    margin-bottom: 38px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background: #e85d04;
+    border: none;
+    padding: 13px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 43px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.hero-btn:hover {
+    background: black;
+    color: white;
+}
+
+
+
+/*-------------------------------header section css close------------------------------*/ 
+
+/*----------------------------service section css start-------------------------*/ 
+
+.service {
+    width: 100%;
+    float: left;
+    background: #17C2A4;
+    padding: 55px 0;
+}
+
+.service-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service-title h2{
+    
+}
+
+.service-title span {
+    border-bottom: 2px solid #161616;
+    display: block;
+    width: 17%;
+    margin: 10px auto;
+}
+
+.service-title p{
+    
+}
+
+.service-items {
+    margin: 64px 0;
+}
+
+.service-item {
+    text-align: center;
+    width: 22%;
+    margin-right: 4%;
+}
+
+.nomergn{
+    margin-right: 0px;
+}
+
+.service-item img {
+    margin-bottom: 10px;
+}
+
+.service-item h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: white;
+}
+
+
+
+/*----------------------------service section css close-------------------------*/ 
+
+
+/*----------------------------team section css start-------------------------*/ 
+
+.team {
+    width: 100%;
+    float: left;
+    background: #D3D3D3;
+    padding: 40px 0;
+}
+
+.team-items {
+    text-align: center;
+    margin-top: 47px;
+}
+
+.team-item {
+    width: 23%;
+    margin-right: 2%;
+}
+
+.less{
+    margin-right: 0px;
+}
+
+.team-item img {
+    width: 147px;
+}
+
+
+.team-item h2 {
+    margin-top: 10px;
+}
+
+.team-item span {
+    color: #002bffe8;
+    display: block;
+    margin-bottom: 18px;
+}
+
+.team-item p {
+    margin-bottom: 10px;
+    color: #0000007a;
+}
+
+.team-social{
+
+}
+
+.team-social ul li{
+    display: inline-block;
+}
+
+.team-social ul li a {
+    padding-right: 10px;
+}
+
+i.fa.fa-facebook {
+    display: inline-block;
+    color: white;
+    background: #0000007a;
+    padding: 5px 10px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+
+i.fa.fa-twitter {
+    display: inline-block;
+    color: white;
+    background: #0000007a;
+    padding: 5px 10px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+
+i.fa.fa-linkedin {
+    display: inline-block;
+    color: white;
+    background: #0000007a;
+    padding: 5px 10px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+
+i.fa.fa-envelope-o {
+    display: inline-block;
+    color: white;
+    background: #0000007a;
+    padding: 5px 10px;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+
+
+
+/*----------------------------team section css close-------------------------*/ 
+
+
+/*------------------------------skill section start-----------------------------------*/ 
+
+.skill{
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+}
+
+
+.skill-items {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.skill-item {
+    width: 25%;
+}
+
+.skill-item p {
+    margin-top: 10px;
+}
+
+.skill-item img {
+    width: 150px;
+}
+
+
+/*------------------------------skill section close-----------------------------------*/ 
+
+
+/*------------------------------portfolio section start------------------------------*/ 
+
+.portfolio{
+    width: 100%;
+    float: left;
+    background: #FFDD99;
+    padding: 50px 0;
+}
+
+.portfolio-link {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.portfolio-link ul li {
+    display: inline-block;
+}
+
+.portfolio-link ul li a {
+    color: white;
+    background: #C7AC75;
+    padding: 5px 10px;
+    margin-right: 8px;
+}
+
+.portfolio-items {
+    margin-top: 35px;
+}
+
+.portfolio-item {
+    width: 48%;
+    display: inline-block;
+    padding-bottom: 36px;
+}
+
+.portfolio-item p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.portfolio-item img{
+
+}
+
+.p-btn{
+
+}
+
+.portfolio-btn {
+    display: block;
+    width: 200px;
+    background: #30D0C1;
+    padding: 17px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 3px;
+    outline: none;
+    text-align: center;
+    transition: .5s ease;
+    cursor: pointer;
+    border: none;
+    margin: 0 auto;
+    box-shadow: 1px 2px 4px white;
+}
+
+.portfolio-btn:hover{
+    background-image: linear-gradient(to right top, #0e0f11, #0a0f10, #060e0e, #050d08, #090b02);
+}
+
+
+
+
+
+/*------------------------------portfolio section close------------------------------*/ 
+
+
+/*------------------------------about section start-----------------------------------*/ 
+
+.testimonial{
+    float: left;
+    width: 100%;
+    padding: 45px 0;
+    background: #D74680;
+}
+
+.testimonial-items {
+    margin-top: 44px;
+}
+
+
+.testimonial-item {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.t-img {
+    width: 20%;
+}
+
+.t-text {
+    width: 70%;
+    margin-left: 25px;
+    color: white;
+    margin-top: 23px;
+}
+
+.t-text p {
+    margin-bottom: 14px;
+}
+
+.t-text h3{
+
+}
+
+.t-text span {
+    color: #d8ff00;
+}
+
+.color{
+    color:white;
+}
+
+
+
+/*------------------------------about section close-----------------------------------*/ 
+
+/*-------------------------------contact section start---------------------------------*/ 
+
+.contact{
+    width: 100%;
+    float: left;
+    background: #3C5499;
+    padding: 50px 0;
+}
+
+.contact-section {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    color: #0D3252;
+}
+
+.form-control {
+    width: 45%;
+    padding: 5px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    background: #0D3252;
+    color: white;
+}
+
+.contact-section textarea {
+    width: 95%;
+    padding: 5px;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    background: #0D3252;
+}
+
+.contact-btn {
+    display: block;
+    width: 192px;
+    background: #30D0C1;
+    padding: 16px 16px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    transition: .5s ease;
+    cursor: pointer;
+    border: none;
+    margin: 20px auto;
+    box-shadow: 1px 2px 4px white;
+}
+
+.contact-btn:hover{
+    background-image: linear-gradient(to right top, #0e0f11, #0a0f10, #060e0e, #050d08, #090b02);
+}
+
+
+/*-------------------------------contact section close---------------------------------*/ 
+
+/*--------------------------------FOOTER SECTION START----------------------------------*/ 
+
+footer {
+    width: 100%;
+    float: left;
+    background: #344B8E;
+    padding: 45px 0;
+}
+
+.footer-nav{
+
+}
+
+.footer-nav ul li{
+    display: inline-block;
+}
+
+
+.footer-nav ul li a {
+    color: white;
+    margin-right: 95px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.mrgn{
+    margin-right: 0px;
+}
+
+
+/*-----------------------------------------footer section close--------------------------------*/ 
+
+
